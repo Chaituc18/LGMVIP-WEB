@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    
+    <center>
+        <table border="4" >
+            <h1>Student Registration</h1>
+          <thead>
+            <tr>
+                <th>student name:</th>
+                <td><input type="text" name="sname" id="sname"</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <th>collage name:</th>
+                <td><input type="text" name="cname" id="cname"</td>
+            </tr>
+            <tr>
+                <th>email:</th>
+                <td><input type="email" name="email" id="email"</td>
+            </tr>
+            <tr>
+                <th>department:</th>
+                <td><input type="text" name="dname" id="dname"</td>
+            </tr>
+            <tr id="btna">
+                
+                <td colspan="2"><input type="button" name="button" id="btn" value="enroll" onclick="AddRow()"></td>
+            </tr>    
+          </tbody>
+        </table>
+
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>student name</th>
+                    <th>collage name</th>
+                    <th> email</th>
+                    <th> department</th>
+                    
+                </tr>
+            </thead>
+        </table>
+    </center>
+    <script src="enroll_students.js"></script>
+</body>
+</html>
